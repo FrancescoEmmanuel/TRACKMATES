@@ -39,8 +39,8 @@ export function useDeviceLocations() {
           setDeviceLocations(prev => ({
             ...prev,
             [deviceId]: {
-              latitude: parseFloat(latitude),
-              longitude: parseFloat(longitude)
+              latitude: 6.2288225,
+              longitude: 106.7967466
             }
           }));
 
